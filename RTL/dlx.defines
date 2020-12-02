@@ -1,0 +1,193 @@
+/*************************************************************************
+ * FILE:        dlx.defines
+ * Written By:  Michael J. Kelley
+ * Written On:  January 29, 1996
+ * Updated By:  Michael J. Kelley
+ * Updated On:  March 4, 1995
+ *
+ * Description:
+ *
+ * This file contains all the macro defines that are used throughout 
+ * the dlx.v file. These macros are used to enhance the readibility
+ * of the source files as well as making it easier to perform changes
+ * when needed.
+ *************************************************************************
+ */
+
+/*************************************************************************
+ * Miscellaneous Parameter Declarations
+ *************************************************************************
+ */
+
+`define TOP_PROJECT	"~/IFS/Private/Project/verilog"
+
+`define Data_Start	32'h10000000
+`define Text_Start	32'h00400000
+`define Code_Start	32'h00400190
+`define PCInc		32'h00000004
+`define LogicZero	1'b0
+`define LogicOne	1'b1
+`define False		1'b0
+`define True		1'b1
+`define Delay		1
+
+/*************************************************************************
+ * Clock Parameter Declarations
+ *************************************************************************
+ */
+
+`define ClockPeriod	20
+
+/*************************************************************************
+ * Instruction Format Parameter Declarations
+ *************************************************************************
+ */
+
+`define WordSize	31:0		// 32-bit instruction word
+`define OP		31:26		// 6-bit opcode
+`define RS		25:21		// 5-bit source register
+`define	RT		20:16		// 5-bit target register
+`define RD		15:11		// 5-bit destination register
+`define Immediate	15:0		// 16-bit immediate field
+`define Target		25:0		// 26-bit target field
+`define OPx		 5:0		// 6-bit extra opcode field
+
+/*************************************************************************
+ * Register Name Parameter Declarations
+ *************************************************************************
+ */
+
+`define R0		5'b00000	// Register File:  Register 0
+`define R1		5'b00001	// Register File:  Register 1
+`define R2		5'b00010	// Register File:  Register 2
+`define R3		5'b00011	// Register File:  Register 3
+`define R4		5'b00100	// Register File:  Register 4
+`define R5		5'b00101	// Register File:  Register 5
+`define R6		5'b00110	// Register File:  Register 6
+`define R7		5'b00111	// Register File:  Register 7
+`define R8		5'b01000	// Register File:  Register 8
+`define R9		5'b01001	// Register File:  Register 9
+`define R10		5'b01010	// Register File:  Register 10
+`define R11		5'b01011	// Register File:  Register 11
+`define R12		5'b01100	// Register File:  Register 12
+`define R13		5'b01101	// Register File:  Register 13
+`define R14		5'b01110	// Register File:  Register 14
+`define R15		5'b01111	// Register File:  Register 15
+`define R16		5'b10000	// Register File:  Register 16
+`define R17		5'b10001	// Register File:  Register 17
+`define R18		5'b10010	// Register File:  Register 18
+`define R19		5'b10011	// Register File:  Register 19
+`define R20		5'b10100	// Register File:  Register 20
+`define R21		5'b10101	// Register File:  Register 21
+`define R22		5'b10110	// Register File:  Register 22
+`define R23		5'b10111	// Register File:  Register 23
+`define R24		5'b11000	// Register File:  Register 24
+`define R25		5'b11001	// Register File:  Register 25
+`define R26		5'b11010	// Register File:  Register 26
+`define R27		5'b11011	// Register File:  Register 27
+`define R28		5'b11100	// Register File:  Register 28
+`define R29		5'b11101	// Register File:  Register 29
+`define R30		5'b11110	// Register File:  Register 30
+`define R31		5'b11111	// Register File:  Register 31
+
+/*************************************************************************
+ * Opcode Name Parameter Declarations
+ *************************************************************************
+ */
+
+`define SPECIAL		6'b000000	// Specifies Register Instructions
+`define FPARITH		6'b000001	// Specifies Floating Point Instructions
+`define J		6'b000010	// Jump Instruction
+`define JAL		6'b000011	// Jump and Link Instruction
+`define BEQZ	6'b000100	// Branch on Equal Zero Instruction
+`define BNEZ	6'b000101	// Branch on Not Equal to Zero Instruction
+`define ADDI	6'b001000	// Add Immediate Instruction
+`define ADDUI	6'b001001	// Add Unsigned Immediate Instruction
+`define SUBI	6'b001010	// Subtract Immediate Instruction
+`define SUBUI	6'b001011	// Subtract Unsigned Immediate Instruction
+`define ANDI	6'b001100	// And Immediate Instruction
+`define ORI		6'b001101	// Or Immediate Instruction
+`define XORI	6'b001110	// Xor Immediate Instruction
+`define LHI		6'b001111	// Load High Immediate Instruction
+`define RFE		6'b010000	// Return From Interrupt Instruciton
+`define TRAP	6'b010001	// TRAP instruction
+`define JR		6'b010010	// Jump Register Instruction
+`define JALR	6'b010011	// Jump And Link Register Instruction
+`define SLLI	6'b010100	// Shift Left Logical Immediate Instruction
+`define SRLI	6'b010110	// Shift Right Logical Immediate Instruction
+`define SRAI	6'b010111	// Shift Right Arithmetic Immediate Instruction
+`define SEQI	6'b011000	// Set on Equal to Immediate Instruction
+`define SNEI	6'b011001	// Set on Not Equal to Immediate Instruction
+`define SLTI	6'b011010	// Set on Less Than Immediate Instruction
+`define SGTI	6'b011011	// Set on Greater Than Immediate Instruction
+`define SLEI	6'b011100	// Set on Less Than or Equal to Immediate Instruction
+`define SGEI	6'b011101	// Set on Greater Than or Equal to Immediate Instruction
+`define LB		6'b101000	// Load Byte Instruction
+`define LH		6'b101001	// Load Half-Word Instruction
+`define LW		6'b101011	// Load Word Instruction
+`define LBU		6'b101100	// Load Byte Unsigned Instruction
+`define LHU		6'b101101	// Load Half-Word Unsigned Instruction
+`define SB		6'b110000	// Store Byte Instruction
+`define SH		6'b110001	// Store Half-Word Instruction
+`define SW		6'b110011	// Store Word Instruction
+
+/*************************************************************************
+ * Opcode Extra (opx) Name Parameter Declarations
+ *************************************************************************
+ */
+
+`define NOP		6'b000000	// No Operation Instruction
+`define SLL		6'b000100	// Shift Left Logical Instruction
+`define SRL		6'b000110	// Shift Right Logical Instruction
+`define SRA		6'b000111	// Shift Right Arithmetic Instruction
+`define TRAP2	6'b001100	// TRAP Instruction
+`define ADD		6'b100000	// Add Instruction
+`define ADDU	6'b100001	// Add Unsigned Instruction
+`define SUB		6'b100010	// Sub Instruction
+`define SUBU	6'b100011	// Sub Unsigned Instruction
+`define AND		6'b100100	// And Instruction
+`define OR		6'b100101	// Or Instruction
+`define XOR		6'b100110	// Xor Instruction
+`define SEQ		6'b101000	// Set on Equal to Instruction
+`define SNE		6'b101001	// Set on Not Equal to Instruction
+`define SLT		6'b101010	// Set on Less Than Instruction
+`define SGT		6'b101011	// Set on Greater Than Instruction
+`define SLE		6'b101100	// Set on Less Than or Equal to Instruction
+`define SGE		6'b101101	// Set on Greater Than or Equal to Instruction
+
+/*************************************************************************
+ * DON'T Care Name Parameter Declarations
+ *************************************************************************
+ */
+`define DC1		 1'bx
+`define DC2		 2'bxx
+`define DC3		 3'bxxx
+`define DC4		 4'bxxxx
+`define DC5		 5'bxxxxx
+`define DC6		 6'bxxxxxx
+`define DC7		 7'bxxxxxxx
+`define DC8		 8'bxxxxxxxx
+`define DC9		 9'bxxxxxxxxx
+`define DC10	10'bxxxxxxxxxx
+`define DC11	11'bxxxxxxxxxxx
+`define DC12	12'bxxxxxxxxxxxx
+`define DC13	13'bxxxxxxxxxxxxx
+`define DC14	14'bxxxxxxxxxxxxxx
+`define DC15	15'bxxxxxxxxxxxxxxx
+`define DC16	16'bxxxxxxxxxxxxxxxx
+`define DC17	17'bxxxxxxxxxxxxxxxxx
+`define DC18	18'bxxxxxxxxxxxxxxxxxx
+`define DC19	19'bxxxxxxxxxxxxxxxxxxx
+`define DC20	20'bxxxxxxxxxxxxxxxxxxxx
+`define DC21	21'bxxxxxxxxxxxxxxxxxxxxx
+`define DC22	22'bxxxxxxxxxxxxxxxxxxxxxx
+`define DC23	23'bxxxxxxxxxxxxxxxxxxxxxxx
+`define DC24	24'bxxxxxxxxxxxxxxxxxxxxxxxx
+`define DC25	25'bxxxxxxxxxxxxxxxxxxxxxxxxx
+`define DC26	26'bxxxxxxxxxxxxxxxxxxxxxxxxxx
+`define DC27	27'bxxxxxxxxxxxxxxxxxxxxxxxxxxx
+`define DC28	28'bxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+`define DC29	29'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+`define DC30	30'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+`define DC31	31'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+`define DC32	32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

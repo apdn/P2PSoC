@@ -1,0 +1,827 @@
+{{C:/Users/axv594/Desktop/SRC Submission/fft128.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/fft128.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:51 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/fft128.v 
+-- Compiling module FFT128
+
+Top level modules:
+	FFT128
+End time: 14:52:51 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/spi_clgen.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/spi_clgen.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:53 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/spi_clgen.v 
+-- Compiling module spi_clgen
+
+Top level modules:
+	spi_clgen
+End time: 14:52:53 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/AES_encoder_decoderF1.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/AES_encoder_decoderF1.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:46 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/AES_encoder_decoderF1.v 
+-- Compiling module aes_encoder_decoder
+-- Compiling module aes_cipher_top
+-- Compiling module aes_inv_cipher_top
+-- Compiling module aes_sbox
+-- Compiling module aes_inv_sbox
+-- Compiling module aes_rcon
+-- Compiling module aes_key_expand_128
+
+Top level modules:
+	aes_encoder_decoder
+End time: 14:52:46 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/bufram128c_2.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/bufram128c_2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:47 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/bufram128c_2.v 
+-- Compiling module BUFRAM128C_2
+
+Top level modules:
+	BUFRAM128C_2
+End time: 14:52:47 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/fft128wrapper3.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/fft128wrapper3.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:51 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/fft128wrapper3.v 
+-- Compiling module FFT128wrapper
+-- Compiling module MUX
+-- Compiling module WBC
+
+Top level modules:
+	FFT128wrapper
+End time: 14:52:51 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/cnorm.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/cnorm.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:48 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/cnorm.v 
+-- Compiling module CNORM
+
+Top level modules:
+	CNORM
+End time: 14:52:48 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/cnorm.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/cnorm.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module CNORM
+
+Top level modules:
+	CNORM
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/debug_DLX2.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/debug_DLX2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:49 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/debug_DLX2.v 
+-- Compiling module debug_DLX1
+
+Top level modules:
+	debug_DLX1
+End time: 14:52:49 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/debug_DLX2.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/debug_DLX2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module debug_DLX1
+
+Top level modules:
+	debug_DLX1
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/WROM128.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/WROM128.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:46 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/WROM128.v 
+-- Compiling module WROM128
+
+Top level modules:
+	WROM128
+End time: 14:52:46 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/mpuc924_383.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/mpuc924_383.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:52 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/mpuc924_383.v 
+-- Compiling module MPUC924_383
+
+Top level modules:
+	MPUC924_383
+End time: 14:52:52 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/debug_SPI.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/debug_SPI.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:50 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/debug_SPI.v 
+-- Compiling module debug_SPI
+
+Top level modules:
+	debug_SPI
+End time: 14:52:50 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/fft128.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/fft128.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module FFT128
+
+Top level modules:
+	FFT128
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/spi_topMY1.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/spi_topMY1.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module spi_top
+
+Top level modules:
+	spi_top
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/mpuc541.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/mpuc541.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:51 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/mpuc541.v 
+-- Compiling module MPUC541
+
+Top level modules:
+	MPUC541
+End time: 14:52:51 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/cnorm_1.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/cnorm_1.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module CNORM_1
+
+Top level modules:
+	CNORM_1
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/WROM128.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/WROM128.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module WROM128
+
+Top level modules:
+	WROM128
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/spi_defines.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/spi_defines.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:54 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/spi_defines.v 
+End time: 14:52:54 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/debug_SPI.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/debug_SPI.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module debug_SPI
+
+Top level modules:
+	debug_SPI
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/TOPmostSPIandPMC15.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/TOPmostSPIandPMC15.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:55 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/TOPmostSPIandPMC15.v 
+-- Compiling module TOPmost
+
+Top level modules:
+	TOPmost
+End time: 14:52:55 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/securitypolicytop2.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/securitypolicytop2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module securitypolicy
+-- Compiling module dff
+-- Compiling module MUX
+-- Compiling module WBC
+
+Top level modules:
+	securitypolicy
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/AEStopwrapper2.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/AEStopwrapper2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module AEStopwrapper
+-- Compiling module dff
+-- Compiling module MUX
+-- Compiling module WBC
+
+Top level modules:
+	AEStopwrapper
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/debug_AES.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/debug_AES.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module debug_AES
+
+Top level modules:
+	debug_AES
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/timescale.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/timescale.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/cnorm_2.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/cnorm_2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:48 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/cnorm_2.v 
+-- Compiling module CNORM_2
+
+Top level modules:
+	CNORM_2
+End time: 14:52:48 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/DcacheM2ALT.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/DcacheM2ALT.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Dcache
+
+Top level modules:
+	Dcache
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/spi_shift.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/spi_shift.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:54 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/spi_shift.v 
+-- Compiling module spi_shift
+
+Top level modules:
+	spi_shift
+End time: 14:52:54 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/power_management.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/power_management.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module PMC
+
+Top level modules:
+	PMC
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/ram128.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/ram128.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:53 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/ram128.v 
+-- Compiling module RAM128
+
+Top level modules:
+	RAM128
+End time: 14:52:53 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/bufram128c.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/bufram128c.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module BUFRAM128C
+
+Top level modules:
+	BUFRAM128C
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/clkgen.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/clkgen.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:47 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/clkgen.v 
+-- Compiling module clkgen
+
+Top level modules:
+	clkgen
+End time: 14:52:47 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/clkgen.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/clkgen.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module clkgen
+
+Top level modules:
+	clkgen
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/AES_encoder_decoderF1.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/AES_encoder_decoderF1.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module aes_encoder_decoder
+-- Compiling module aes_cipher_top
+-- Compiling module aes_inv_cipher_top
+-- Compiling module aes_sbox
+-- Compiling module aes_inv_sbox
+-- Compiling module aes_rcon
+-- Compiling module aes_key_expand_128
+
+Top level modules:
+	aes_encoder_decoder
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/debug_mem.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/debug_mem.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module debug_mem
+
+Top level modules:
+	debug_mem
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/mpuc541.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/mpuc541.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module MPUC541
+
+Top level modules:
+	MPUC541
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/topM.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/topM.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:55 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/topM.v 
+-- Compiling module dlx
+-- Compiling module IF_stage
+-- Compiling module ID_stage
+-- Compiling module EX_stage
+-- Compiling module MEM_stage
+-- Compiling module WB_stage
+-- Compiling module adder_generic
+-- Compiling module addhsv
+-- Compiling module alu
+-- Compiling module alu_generic
+-- Compiling module buff
+-- Compiling module dff_cq
+-- Compiling module dff_cq5
+-- Compiling module dff_generic
+-- Compiling module IFCtrl
+-- Compiling module IDCtrl
+-- Compiling module EXCtrl
+-- Compiling module MemCtrl
+-- Compiling module WBCtrl
+-- Compiling module newmux2
+-- Compiling module newmux3
+-- Compiling module newmux3_1
+-- Compiling module newmux3_5
+-- Compiling module newmux4
+-- Compiling module regfile2r
+-- Compiling module shifter
+-- Compiling module zero_compare
+
+Top level modules:
+	dlx
+End time: 14:52:55 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/cnorm_2.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/cnorm_2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module CNORM_2
+
+Top level modules:
+	CNORM_2
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/together2Mwrapperextra4.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/together2Mwrapperextra4.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module together
+-- Compiling module dff
+-- Compiling module MUX
+-- Compiling module WBC
+
+Top level modules:
+	together
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/bufram128c_1.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/bufram128c_1.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module BUFRAM128C_1
+
+Top level modules:
+	BUFRAM128C_1
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/mpuc707.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/mpuc707.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module MPUC707
+
+Top level modules:
+	MPUC707
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/ram128.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/ram128.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module RAM128
+
+Top level modules:
+	RAM128
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/DcacheME2.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/DcacheME2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module SystemMem
+
+Top level modules:
+	SystemMem
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/DAP.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/DAP.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:48 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/DAP.v 
+-- Compiling module DAP
+
+Top level modules:
+	DAP
+End time: 14:52:48 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/DAP.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/DAP.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module DAP
+
+Top level modules:
+	DAP
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/debug_FFT.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/debug_FFT.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module debug_FFT
+
+Top level modules:
+	debug_FFT
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/IcacheME.v} {1 {vlog -work work -stats=none {C:\Users\axv594\Desktop\SRC Submission\IcacheME.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Icache
+
+Top level modules:
+	Icache
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/mpuc1307.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/mpuc1307.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module MPUC1307
+
+Top level modules:
+	MPUC1307
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/topTESTBENCHSPIandPMC16.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/topTESTBENCHSPIandPMC16.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:55 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/topTESTBENCHSPIandPMC16.v 
+-- Compiling module test
+
+Top level modules:
+	test
+End time: 14:52:55 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/mpuc924_383.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/mpuc924_383.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module MPUC924_383
+
+Top level modules:
+	MPUC924_383
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/spi_shift.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/spi_shift.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module spi_shift
+
+Top level modules:
+	spi_shift
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/topTESTBENCHSPIandPMC16.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/topTESTBENCHSPIandPMC16.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/together2Mwrapperextra4.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/together2Mwrapperextra4.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:54 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/together2Mwrapperextra4.v 
+-- Compiling module together
+-- Compiling module dff
+-- Compiling module MUX
+-- Compiling module WBC
+
+Top level modules:
+	together
+End time: 14:52:54 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/bufram128c_1.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/bufram128c_1.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:47 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/bufram128c_1.v 
+-- Compiling module BUFRAM128C_1
+
+Top level modules:
+	BUFRAM128C_1
+End time: 14:52:47 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/DcacheME2.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/DcacheME2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:48 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/DcacheME2.v 
+-- Compiling module SystemMem
+
+Top level modules:
+	SystemMem
+End time: 14:52:49 on Jan 28,2016, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/debug_mem.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/debug_mem.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:50 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/debug_mem.v 
+-- Compiling module debug_mem
+
+Top level modules:
+	debug_mem
+End time: 14:52:50 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/IcacheME.v}} {1 {vlog -work work {C:\Users\axv594\Desktop\SRC Submission\IcacheME.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:51 on Jan 28,2016
+vlog -reportprogress 300 -work work C:\Users\axv594\Desktop\SRC Submission\IcacheME.v 
+-- Compiling module Icache
+
+Top level modules:
+	Icache
+End time: 14:52:51 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/fft128wrapper3.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/fft128wrapper3.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module FFT128wrapper
+-- Compiling module MUX
+-- Compiling module WBC
+
+Top level modules:
+	FFT128wrapper
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/AEStopwrapper2.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/AEStopwrapper2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:47 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/AEStopwrapper2.v 
+-- Compiling module AEStopwrapper
+-- Compiling module dff
+-- Compiling module MUX
+-- Compiling module WBC
+
+Top level modules:
+	AEStopwrapper
+End time: 14:52:47 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/DcacheM2ALT.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/DcacheM2ALT.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:48 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/DcacheM2ALT.v 
+-- Compiling module Dcache
+
+Top level modules:
+	Dcache
+End time: 14:52:48 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/topM.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/topM.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module dlx
+-- Compiling module IF_stage
+-- Compiling module ID_stage
+-- Compiling module EX_stage
+-- Compiling module MEM_stage
+-- Compiling module WB_stage
+-- Compiling module adder_generic
+-- Compiling module addhsv
+-- Compiling module alu
+-- Compiling module alu_generic
+-- Compiling module buff
+-- Compiling module dff_cq
+-- Compiling module dff_cq5
+-- Compiling module dff_generic
+-- Compiling module IFCtrl
+-- Compiling module IDCtrl
+-- Compiling module EXCtrl
+-- Compiling module MemCtrl
+-- Compiling module WBCtrl
+-- Compiling module newmux2
+-- Compiling module newmux3
+-- Compiling module newmux3_1
+-- Compiling module newmux3_5
+-- Compiling module newmux4
+-- Compiling module regfile2r
+-- Compiling module shifter
+-- Compiling module zero_compare
+
+Top level modules:
+	dlx
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/power_management.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/power_management.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:52 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/power_management.v 
+-- Compiling module PMC
+
+Top level modules:
+	PMC
+End time: 14:52:52 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/spi_defines.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/spi_defines.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/fft8_3.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/fft8_3.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:50 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/fft8_3.v 
+-- Compiling module FFT8
+
+Top level modules:
+	FFT8
+End time: 14:52:50 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/mpuc707.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/mpuc707.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:52 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/mpuc707.v 
+-- Compiling module MPUC707
+
+Top level modules:
+	MPUC707
+End time: 14:52:52 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/rotator128_v.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/rotator128_v.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module ROTATOR128
+
+Top level modules:
+	ROTATOR128
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/bufram128c.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/bufram128c.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:47 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/bufram128c.v 
+-- Compiling module BUFRAM128C
+
+Top level modules:
+	BUFRAM128C
+End time: 14:52:47 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/bufram128c_2.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/bufram128c_2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module BUFRAM128C_2
+
+Top level modules:
+	BUFRAM128C_2
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/spi_topMY1.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/spi_topMY1.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:54 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/spi_topMY1.v 
+-- Compiling module spi_top
+
+Top level modules:
+	spi_top
+End time: 14:52:54 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/ram2x128.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/ram2x128.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:52 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/ram2x128.v 
+-- Compiling module RAM2x128C
+
+Top level modules:
+	RAM2x128C
+End time: 14:52:52 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/timescale.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/timescale.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:54 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/timescale.v 
+End time: 14:52:54 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/fft16.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/fft16.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:50 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/fft16.v 
+-- Compiling module FFT16
+
+Top level modules:
+	FFT16
+End time: 14:52:51 on Jan 28,2016, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/debug_AES.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/debug_AES.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:49 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/debug_AES.v 
+-- Compiling module debug_AES
+
+Top level modules:
+	debug_AES
+End time: 14:52:49 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/fft16.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/fft16.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module FFT16
+
+Top level modules:
+	FFT16
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/mpuc1307.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/mpuc1307.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:52 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/mpuc1307.v 
+-- Compiling module MPUC1307
+
+Top level modules:
+	MPUC1307
+End time: 14:52:52 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/IcacheM.v} {1 {vlog -work work -stats=none {C:\Users\axv594\Desktop\SRC Submission\IcacheM.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module IcacheSP
+
+Top level modules:
+	IcacheSP
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/rotator128_v.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/rotator128_v.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:53 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/rotator128_v.v 
+-- Compiling module ROTATOR128
+
+Top level modules:
+	ROTATOR128
+End time: 14:52:53 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/TOPmostSPIandPMC15.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/TOPmostSPIandPMC15.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module TOPmost
+
+Top level modules:
+	TOPmost
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/spi_clgen.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/spi_clgen.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module spi_clgen
+
+Top level modules:
+	spi_clgen
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/securitypolicytop2.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/securitypolicytop2.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:53 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/securitypolicytop2.v 
+-- Compiling module securitypolicy
+-- Compiling module dff
+-- Compiling module MUX
+-- Compiling module WBC
+
+Top level modules:
+	securitypolicy
+End time: 14:52:53 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/ram2x128.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/ram2x128.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module RAM2x128C
+
+Top level modules:
+	RAM2x128C
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/debug_FFT.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/debug_FFT.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:50 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/debug_FFT.v 
+-- Compiling module debug_FFT
+
+Top level modules:
+	debug_FFT
+End time: 14:52:50 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/cnorm_1.v}} {1 {vlog -work work {C:/Users/axv594/Desktop/SRC Submission/cnorm_1.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:48 on Jan 28,2016
+vlog -reportprogress 300 -work work C:/Users/axv594/Desktop/SRC Submission/cnorm_1.v 
+-- Compiling module CNORM_1
+
+Top level modules:
+	CNORM_1
+End time: 14:52:48 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {{C:/Users/axv594/Desktop/SRC Submission/IcacheM.v}} {1 {vlog -work work {C:\Users\axv594\Desktop\SRC Submission\IcacheM.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+Start time: 14:52:51 on Jan 28,2016
+vlog -reportprogress 300 -work work C:\Users\axv594\Desktop\SRC Submission\IcacheM.v 
+-- Compiling module IcacheSP
+
+Top level modules:
+	IcacheSP
+End time: 14:52:51 on Jan 28,2016, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+} {} {}} {C:/Users/axv594/Desktop/SRC Submission/fft8_3.v} {1 {vlog -work work -stats=none {C:/Users/axv594/Desktop/SRC Submission/fft8_3.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module FFT8
+
+Top level modules:
+	FFT8
+
+} {} {}}
